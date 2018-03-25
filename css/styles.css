@@ -24,7 +24,6 @@ li {
     width:50%;
     height:100%;
     float: left;
-    box-shadow: inset -16px -3px 11px -3px #0000001a;
 }
 
 .right {
@@ -157,6 +156,13 @@ background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
         padding: 0 1.5em 1.5em 1em;
         display: inline-block;
         text-align: center;
+    }
+    
+    .prev_weather .logow {
+        width: 7em;
+        left: 1em;
+        position: absolute;
+        top: 4em;
     }
 
 }
