@@ -15,6 +15,8 @@ function getKeyword($weather) {
       return 'Sunny';
     case 'thunderstorm':
       return 'Dark & Stormy';
+    case 'drizzle';
+      return 'Nocturne';
     default:
       break;
   }
