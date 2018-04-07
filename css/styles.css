@@ -14,7 +14,7 @@ li {
 }
 
 .logo {
-    width: 11em;
+    width: 9em;
     position: absolute;
     left: -3em;
     top: 2em;
@@ -30,7 +30,7 @@ li {
     width:50%;
     height:100%;
     float: right;
-    background:url('../images/bg.svg');
+    background:url('../images/bg.jpg');
     background-size: cover;
 }
 
@@ -156,13 +156,6 @@ background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
         padding: 0 1.5em 1.5em 1em;
         display: inline-block;
         text-align: center;
-    }
-    
-    .prev_weather .logow {
-        width: 7em;
-        left: 1em;
-        position: absolute;
-        top: 4em;
     }
 
 }

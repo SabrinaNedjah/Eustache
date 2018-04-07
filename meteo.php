@@ -37,7 +37,7 @@
             <div class="pt-5 mx-auto col-md-8 ">
                 <img class="logo" src="images/eustache_logo.png" alt="logo">
                 <p class="celsius"><?= round($weather->main->temp); ?>°</p>
-                <p class="weather"><img src="http://localhost:8888/api/images/icons/<?= $weather->weather[0]->icon; ?>.svg" width="30px" height="30px" alt="weather_logo"/>     <?= $weather->weather[0]->main; ?></p>
+                <p class="weather"><img src="http://localhost:8888/Eustache/images/icons/<?= $weather->weather[0]->icon; ?>.svg" width="30px" height="30px" alt="weather_logo"/>     <?= $weather->weather[0]->main; ?></p>
                 <p class="town"><img src="images/located_arrow.png" width="15px" height="15px" alt="localisation logo"> <?=  $weather->name; ?></p>
                 <p class="date"><?= date('l jS \of F Y G:i ', $weather->dt); ?><p>
                 <p>Humidity: <?= $weather->main->humidity; ?>%</p>
